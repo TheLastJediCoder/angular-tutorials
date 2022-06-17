@@ -1,0 +1,6 @@
+<p [classList]="loginClass" [innerText]="loginText" [hidden]="msgBox">Login Successfully</p>
+<div class="lable">Username</div>
+<input type="text" class="form-control xs-6" (input)="setUserName($event)">
+<div class="lable">Password</div>
+<input type="password" class="form-control xs-6" (input)="setPassword($event)">
+<button class="btn btn-primary" (click)="checkCredentials()">Login</button>

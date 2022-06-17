@@ -1,0 +1,11 @@
+.success-login{
+    padding: 20px;
+    background-color: lightgreen;
+    border: 1px solid green;
+}
+
+.fail-login{
+    padding: 20px;
+    background-color: pink;
+    border: 1px solid red;
+}

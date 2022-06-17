@@ -1,18 +1,18 @@
 import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
+import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { DemoComponent } from './demo/demo.component';
-import { PracticeOneComponent } from './practice-one/practice-one.component';
-import { PracticeTwoComponent } from './practice-two/practice-two.component';
+import { HeaderComponent } from './header/header.component';
+import { LoginFormComponent } from './login-form/login-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    HeaderComponent,
     DemoComponent,
-    PracticeOneComponent,
-    PracticeTwoComponent
+    LoginFormComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,8 @@
+<nav class="navbar bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" [innerText]="userName"></a>
+        <form class="d-flex" role="search">
+            <button class="btn btn-outline-success" type="button" [disabled]="disableLoginButton" (click)="disableLoginBtn()">{{ getUserName() }}</button>
+        </form>
+    </div>
+</nav>
